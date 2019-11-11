@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/game_title"
+        android:textSize="56sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="202dp"
+        android:layout_height="210dp"
+        android:layout_below="@+id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/running"
+        app:srcCompat="@drawable/running" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/textTitle"
+        android:layout_alignEnd="@+id/textTitle"
+        android:layout_marginTop="10dp"
+        android:onClick="onStartGame"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/start_button" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStart"
+        android:layout_alignStart="@+id/buttonStart"
+        android:layout_alignEnd="@+id/buttonStart"
+        android:onClick="onHowtoPlay"
+        android:padding="15dp"
+        android:text="@string/tutorial_button" />
+</RelativeLayout>

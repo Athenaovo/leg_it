@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Leg It!</string>
+    <string name="return_button">Back to Main Menu</string>
+    <string name="time_up">Time\'s Up!</string>
+    <string name="score">YOUR SCORE:</string>
+    <string name="highest">Highest Score:</string>
+    <string name="distance_label">Distance to Checkpoint</string>
+    <string name="checkpoint_label">Next Checkpoint</string>
+    <string name="giveup_button">Give up</string>
+
+
+    <string name="dummy_location">Engineering Building</string>
+    <string name="dummy_distance">500m</string>
+    <string name="dummy_score">Score: 100</string>
+    <string name="dummy_time">Time: 20:00</string>
+    <string name="game_title">LEG IT!</string>
+    <string name="running">Running image</string>
+    <string name="start_button">Start Game</string>
+    <string name="tutorial_button">How To Play</string>
+    <string name="tutorials">You have a time limit of 20 minutes per game. Reaching a checkpoint will give 100 points and refresh to a new location.
+        \n\n Try to reach as many locations as possible to get a higher score and challenge yourself!
+        \n\n Leg it！
+    </string>
+    <string name="tutorial_title">HOW TO PLAY</string>
+    <string name="ok">OK</string>
+    <string name="dummy_value">100</string>
+
+</resources>
